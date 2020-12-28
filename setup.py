@@ -1,0 +1,14 @@
+from setuptools import setup
+
+setup(
+    name = "helloWorldApp",
+    version = "1.0",
+    author = "Fritz Geib",
+    description = "A hello world app",
+    license = "MIT",
+    url = "https://github.com/Fr1tzBot/helloWorldApp",
+    long_description=open('README.md').read(),
+    entry_points = {
+        'console_scripts' : ['helloWorldApp = helloWorldApp.helloWorldApp:main']
+    }
+)
