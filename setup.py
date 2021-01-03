@@ -10,5 +10,8 @@ setup(
     long_description=open('README.md').read(),
     entry_points = {
         'console_scripts' : ['helloWorldApp = helloWorldApp.helloWorldApp:main']
-    }
+    },
+    data_files = [
+        ('share/applications/', ['helloWorldApp.desktop'])
+    ]
 )
