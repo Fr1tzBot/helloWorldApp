@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=helloWorldApp
+Comment=Example Hello World App
+# Hello World App should wait for user input at the end, else the terminal
+# window will disappear immediately.
+Exec=helloWorldApp
+Icon=/usr/share/icons/gnome/48x48/apps/file-manager.png
+Categories=Utility;
+# desktop should run this in a terminal application
+Terminal=true
+StartupNotify=true
+StartupWMClass=helloWorldApp
