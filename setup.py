@@ -4,6 +4,7 @@ setup(
     name = "helloWorldApp",
     version = "1.0",
     author = "Fritz Geib",
+    author_email = "fritz@standland.org",
     description = "A hello world app",
     license = "MIT",
     url = "https://github.com/Fr1tzBot/helloWorldApp",
@@ -11,7 +12,7 @@ setup(
     entry_points = {
         'console_scripts' : ['helloWorldApp = helloWorldApp.helloWorldApp:main']
     },
-    data_files = [
-        ('share/applications/', ['helloWorldApp.desktop'])
-    ]
+    #data_files = [
+    #    ('share/applications/', ['helloWorldApp.desktop'])
+    #]
 )
