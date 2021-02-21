@@ -3,6 +3,8 @@ from setuptools import setup
 setup(
     name = "helloWorldApp",
     version = "1.0",
+    author = "Fritz Geib",
+    author_email = "github-f@standland.org",
     description = "A hello world app",
     license = "MIT",
     url = "https://github.com/Fr1tzBot/helloWorldApp",

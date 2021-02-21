@@ -1,0 +1,16 @@
+Source: helloworldapp
+Section: python3
+Priority: optional
+Maintainer: Fritz Geib, <github-f@standland.org>
+Build-Depends: debhelper (>= 10),
+               python3 (>= 3.8.6)
+Standards-Version: 3.9.2
+X-Python-Version: >= 3.8
+
+
+Package: helloWorldApp
+Architecture: all
+Section: python
+Depends: python-appindicator, ${misc:Depends}, ${python:Depends}
+Description: an app that prints hello world
+ An app that prints hello world
