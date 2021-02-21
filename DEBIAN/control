@@ -1,0 +1,10 @@
+Package: helloWorldApp
+Version: 1.0
+Architecture: all
+Maintainer: Fritz Geib<github-f@standland.org>
+Installed-Size: 2
+Depends: python3
+Section: extras
+Priority: optional
+Homepage: https://github.com/Fr1tzBot/
+Description: an app that prints hello world on screen
