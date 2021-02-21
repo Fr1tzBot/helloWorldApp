@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: helloWorldApp
+Upstream-Contact: Fritz Geib, <github-f@standland.org>
+
+Files: *
+Copyright: 2021, Fritz Geib, <github-f@standland.org>
+License: (MIT)
